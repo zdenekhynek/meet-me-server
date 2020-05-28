@@ -1,0 +1,2396 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.ItineraryResult, Tfl.Api.Presentation.Entities",
+  "journeys": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2020-05-28T20:25:00",
+      "duration": 60,
+      "arrivalDateTime": "2020-05-28T21:26:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 1,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Portland Rise Estate",
+            "detailed": "Walk to Portland Rise Estate",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Green Lanes for 16 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Green Lanes",
+                "distance": 16,
+                "cumulativeDistance": 16,
+                "skyDirection": 513,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 14,
+                "latitude": 51.569950107349996,
+                "longitude": -0.0953430956,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T20:25:00",
+          "arrivalTime": "2020-05-28T20:26:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "323 Green Lanes, Stamford Hill",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.569959093730006,
+            "lon": -0.09534272
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00011751",
+            "platformName": "",
+            "stopLetter": "J",
+            "icsCode": "1011751",
+            "commonName": "Portland Rise Estate",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56982265946,
+            "lon": -0.0952474124
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.56995909373, -0.09534272],[51.56995010735, -0.0953430956],[51.56982242538, -0.09523299216]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 16,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 43,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "141 bus to London Bridge Bus Station",
+            "detailed": "141 bus towards London Bridge",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T20:26:00",
+          "arrivalTime": "2020-05-28T21:09:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00011751",
+            "platformName": "",
+            "stopLetter": "J",
+            "icsCode": "1011751",
+            "commonName": "Portland Rise Estate",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56982265946,
+            "lon": -0.0952474124
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G000970",
+            "platformName": "",
+            "stopLetter": "C",
+            "icsCode": "1019954",
+            "commonName": "London Bridge Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50504700631,
+            "lon": -0.08735888305999999
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.5698237901, -0.09524228835],[51.56972240473, -0.09516502301],[51.56941288795, -0.09493265276],[51.56931263302, -0.09485026479],[51.56851223088, -0.09429211256],[51.56720279544, -0.09408971213],[51.56720279544, -0.09408971213],[51.56704276661, -0.09406497709],[51.56657406942, -0.09399800412],[51.56562253486, -0.09354722213],[51.5654771128, -0.09345230459],[51.56462278597, -0.09289647839],[51.56437462495, -0.09274091966],[51.56437462495, -0.09274091966],[51.56427755373, -0.09268007144],[51.56391411394, -0.09245000156],[51.56283652989, -0.09199012525],[51.5626014773, -0.09191339805],[51.56252002178, -0.09188647775],[51.56252002178, -0.09188647775],[51.56233024467, -0.09182375855],[51.56071910363, -0.09173250375],[51.56019742462, -0.09172548821],[51.55996119935, -0.09157668104],[51.55978358103, -0.09146286277],[51.55978358103, -0.09146286277],[51.55905247652, -0.09099437904],[51.55782946235, -0.09043969073],[51.55767669393, -0.09044608962],[51.55758636089, -0.090421021],[51.55713563419, -0.09035334406],[51.55689651447, -0.09032447724],[51.55689651447, -0.09032447724],[51.55598232734, -0.09021411796],[51.55576360362, -0.09003574747],[51.55566334538, -0.08995339424],[51.55511712149, -0.08954351618],[51.55489766647, -0.08936523628],[51.55489766647, -0.08936523628],[51.55454299794, -0.08907711627],[51.55443375268, -0.08899514394],[51.55393245743, -0.08858340452],[51.55362269323, -0.08833674192],[51.55331451771, -0.08806099066],[51.55331451771, -0.08806099066],[51.55312991227, -0.08789581026],[51.55278020666, -0.08740561287],[51.55255871254, -0.08650615583],[51.55241903891, -0.08614590237],[51.55241903891, -0.08614590237],[51.55223953764, -0.08568293077],[51.5521532504, -0.08535479118],[51.55209627401, -0.08516966609],[51.55204428362, -0.08473911714],[51.55188751501, -0.08450048776],[51.55164512276, -0.08458889405],[51.55164512276, -0.08458889405],[51.55099358572, -0.08482652032],[51.55089450048, -0.08481625778],[51.54917557782, -0.08438333924],[51.54917557782, -0.08438333924],[51.5489802147, -0.08433413813],[51.54861012647, -0.08424872105],[51.54697970662, -0.08382458594],[51.54697970662, -0.08382458594],[51.5469394115, -0.083814104],[51.54657878005, -0.08375714253],[51.54593034962, -0.08369785172],[51.54578609701, -0.08367506782],[51.54511945833, -0.08360212174],[51.54421119542, -0.08394115271],[51.54421119542, -0.08394115271],[51.54376981475, -0.08410590345],[51.54311757552, -0.08436404508],[51.54256347974, -0.08457479369],[51.54207556966, -0.08474391576],[51.54207556966, -0.08474391576],[51.54175870613, -0.08485374666],[51.54122258198, -0.08506372814],[51.54067794139, -0.0853029036],[51.54030183684, -0.0854419402],[51.54030183684, -0.0854419402],[51.53953379956, -0.08572585706],[51.53895297665, -0.08595211299],[51.53886334794, -0.08597029372],[51.53835394532, -0.08616470674],[51.53802675875, -0.08630422031],[51.53802675875, -0.08630422031],[51.5374162514, -0.08656453717],[51.53732351159, -0.08694334012],[51.53715365193, -0.08755608971],[51.53644900166, -0.08901315419],[51.53628530797, -0.08932278919],[51.53628530797, -0.08932278919],[51.5360826033, -0.08970621019],[51.53590217119, -0.08967050694],[51.53534555176, -0.08917472423],[51.53498140095, -0.08890159481],[51.53432592795, -0.08840997269],[51.53395413878, -0.08813661262],[51.53395413878, -0.08813661262],[51.53384354315, -0.08805529749],[51.53335193602, -0.08768659766],[51.53284212004, -0.08730425055],[51.53261902322, -0.08716538541],[51.53261902322, -0.08716538541],[51.53167018579, -0.08657480383],[51.53121616518, -0.08630548519],[51.53100806771, -0.08622770563],[51.53021961521, -0.08640494634],[51.52984375326, -0.0868273432],[51.52984375326, -0.0868273432],[51.52948666813, -0.08722863034],[51.52913831267, -0.08737298564],[51.52903141544, -0.08743513424],[51.52829071109, -0.08778334727],[51.52824624877, -0.087814044],[51.52763846068, -0.08804134309],[51.52738256235, -0.08803103891],[51.52738256235, -0.08803103891],[51.52728752097, -0.08802721192],[51.52699831196, -0.08793841241],[51.52687297186, -0.08797249638],[51.52671262541, -0.08806571222],[51.52625931257, -0.08783962582],[51.52613044962, -0.08765761397],[51.5260105728, -0.08747522658],[51.52589780275, -0.08717721325],[51.5258514611, -0.08709265872],[51.52566157179, -0.08702853697],[51.52544942194, -0.08725366857],[51.52537753066, -0.08725668135],[51.52535955784, -0.08725743455],[51.52517295738, -0.08739499756],[51.52501378575, -0.08756024185],[51.52463565176, -0.08753283836],[51.52457251198, -0.08752106821],[51.52420004421, -0.08745026915],[51.52420004421, -0.08745026915],[51.52401324035, -0.08741476169],[51.52370699759, -0.0873843474],[51.52348139765, -0.08733613897],[51.52323782485, -0.08728868411],[51.52290742507, -0.08720335873],[51.52290742507, -0.08720335873],[51.52218124609, -0.08701582798],[51.5219107139, -0.08696950582],[51.52157892136, -0.08702665491],[51.52103215954, -0.0871360551],[51.52050384018, -0.08727350861],[51.52009964942, -0.08740237773],[51.52009964942, -0.08740237773],[51.51993129311, -0.08745605446],[51.5192513783, -0.08767192121],[51.51833352545, -0.08818602162],[51.51813723271, -0.08828072368],[51.51794140939, -0.08840423248],[51.51781314166, -0.08847220463],[51.51781314166, -0.08847220463],[51.51746888443, -0.08865463278],[51.51732604041, -0.08871826658],[51.51654867996, -0.08902465898],[51.5162715085, -0.08912273852],[51.5159998851, -0.08922169332],[51.5159998851, -0.08922169332],[51.51595862584, -0.08923672432],[51.51568192341, -0.08936360737],[51.51534184652, -0.08946431505],[51.51477875069, -0.08967524077],[51.51457276632, -0.08972709642],[51.51394579208, -0.08933140925],[51.51394579208, -0.08933140925],[51.51337341738, -0.08897019019],[51.51313437217, -0.08864871635],[51.51282413886, -0.08837346212],[51.51248718039, -0.08811374243],[51.5123320632, -0.08797611858],[51.51212255765, -0.08781194959],[51.51204949212, -0.08774295044],[51.51198611745, -0.08771678088],[51.51164892273, -0.08744266889],[51.51155788413, -0.0873744238],[51.51144192746, -0.08727527838],[51.51144192746, -0.08727527838],[51.51122045374, -0.08708591519],[51.5109471023, -0.08686678318],[51.51087121698, -0.08662496876],[51.51071040102, -0.08668935216],[51.51030883075, -0.08687911135],[51.50980793956, -0.08704420537],[51.50973651788, -0.08707601917],[51.50952201788, -0.08715705884],[51.50952201788, -0.08715705884],[51.50902159588, -0.08735094867],[51.5089144632, -0.08739866775],[51.50790392696, -0.08774360664],[51.50682149784, -0.08809153917],[51.50673210291, -0.08812410149],[51.50641969002, -0.08826686887],[51.5063395162, -0.08831345453],[51.50617940321, -0.08842102543],[51.50605077629, -0.08825349049],[51.50578929554, -0.08765922433],[51.5056304205, -0.08729122327],[51.50559306561, -0.08720632926],[51.50554625447, -0.08709301201],[51.50549967811, -0.08699409485],[51.5051198987, -0.08686590536]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00011127",
+                "name": "Gloucester Drive",
+                "uri": "/StopPoint/490G00011127",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009364",
+                "name": "Lordship Park",
+                "uri": "/StopPoint/490G00009364",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00008767",
+                "name": "Kings Crescent Estate",
+                "uri": "/StopPoint/490G00008767",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00016700",
+                "name": "Riversdale Road",
+                "uri": "/StopPoint/490G00016700",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00019866",
+                "name": "Stoke Newington Church Street",
+                "uri": "/StopPoint/490G00019866",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00004600",
+                "name": "Petherton Road",
+                "uri": "/StopPoint/490G00004600",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003114",
+                "name": "Aden Grove",
+                "uri": "/StopPoint/490G00003114",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000675",
+                "name": "Albion Road",
+                "uri": "/StopPoint/490G000675",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000893",
+                "name": "Newington Green",
+                "uri": "/StopPoint/490G000893",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009869",
+                "name": "Mildmay Grove",
+                "uri": "/StopPoint/490G00009869",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015133",
+                "name": "Balls Pond Road",
+                "uri": "/StopPoint/490G00015133",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003367",
+                "name": "Southgate Road / Ardleigh Road",
+                "uri": "/StopPoint/490G00003367",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015109",
+                "name": "Northchurch Road",
+                "uri": "/StopPoint/490G00015109",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006169",
+                "name": "Downham Road",
+                "uri": "/StopPoint/490G00006169",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015282",
+                "name": "Canal Walk",
+                "uri": "/StopPoint/490G00015282",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003601",
+                "name": "Baring Street",
+                "uri": "/StopPoint/490G00003601",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006289",
+                "name": "Eagle Wharf Road",
+                "uri": "/StopPoint/490G00006289",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009942",
+                "name": "Mintern Street",
+                "uri": "/StopPoint/490G00009942",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003960",
+                "name": "Bevenden Street",
+                "uri": "/StopPoint/490G00003960",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000872",
+                "name": "Old Street Stn / Moorfields Eye Hosp",
+                "uri": "/StopPoint/490G000872",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000873",
+                "name": "City Road / Leonard Street",
+                "uri": "/StopPoint/490G000873",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006612",
+                "name": "Epworth Street",
+                "uri": "/StopPoint/490G00006612",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000282",
+                "name": "Finsbury Square / Moorgate",
+                "uri": "/StopPoint/490G000282",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00149L",
+                "name": "Moorgate Station",
+                "uri": "/StopPoint/490G00149L",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00007417",
+                "name": "Great Swan Alley",
+                "uri": "/StopPoint/490G00007417",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000713",
+                "name": "Bank Station / Princes Street",
+                "uri": "/StopPoint/490G000713",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00019175",
+                "name": "King William Street / Monument Stn",
+                "uri": "/StopPoint/490G00019175",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G09267E",
+                "name": "Monument Station",
+                "uri": "/StopPoint/490G09267E",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000970",
+                "name": "London Bridge Station",
+                "uri": "/StopPoint/490G000970",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "141",
+              "directions": ["London Bridge"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "141",
+                "name": "141",
+                "uri": "/Line/141",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "bus",
+            "name": "bus",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "PlannedWork",
+              "type": "lineInfo",
+              "categoryDescription": "PlannedWork",
+              "description": "From 20:00 Friday, 13 March until 18:00 Friday, 16 October, London Bridge is closed to traffic except Buses, Taxi's and Cycles during bridge improvement works. During this time, buses will not be able to serve Bus Stops M & Y (London Bridge) and Bus Stops P & Q (Monument Station). Bus Stop M, Gracechurch Street has been relocated south of Fencurch Street for the duration of these works.",
+              "summary": "NOE CE20/649/A / LONDON BRIDGE, SE1 / ROUTES 17 21 35 43 47 133 141 149 344 388 521 N21 N133 N199",
+              "additionalInfo": "",
+              "created": "2020-03-16T17:10:00",
+              "lastUpdate": "2020-03-16T18:02:00"
+            }
+          ],
+          "plannedWorks": [],
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 17,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "detailed": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Joiner Street for 42 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Joiner Street",
+                "distance": 42,
+                "cumulativeDistance": 42,
+                "skyDirection": 184,
+                "skyDirectionDescription": "South",
+                "cumulativeTravelTime": 39,
+                "latitude": 51.50511091226,
+                "longitude": -0.08686628176,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 52 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 52,
+                "cumulativeDistance": 94,
+                "skyDirection": 191,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 86,
+                "latitude": 51.504734186449994,
+                "longitude": -0.08692528925,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to St Thomas Street, continue for 391 metres",
+                "turnDirection": "LEFT",
+                "streetName": "St Thomas Street",
+                "distance": 391,
+                "cumulativeDistance": 485,
+                "skyDirection": 484,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 437,
+                "latitude": 51.50432597728,
+                "longitude": -0.08725939131999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Bermondsey Street, continue for 376 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Bermondsey Street",
+                "distance": 376,
+                "cumulativeDistance": 861,
+                "skyDirection": 524,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 773,
+                "latitude": 51.50245914142,
+                "longitude": -0.0825250449,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Royal Oak Yard, continue for 38 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Royal Oak Yard",
+                "distance": 38,
+                "cumulativeDistance": 899,
+                "skyDirection": 256,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 804,
+                "latitude": 51.49919125816,
+                "longitude": -0.08120702787,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T21:09:00",
+          "arrivalTime": "2020-05-28T21:26:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G000970",
+            "platformName": "",
+            "stopLetter": "C",
+            "icsCode": "1019954",
+            "commonName": "London Bridge Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50504700631,
+            "lon": -0.08735888305999999
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "1 Royal Oak Yard, Bermondsey",
+            "placeType": "StopPoint",
+            "lat": 51.49914629024,
+            "lon": -0.08175640894
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.50511091226, -0.08686628176],[51.50473418645, -0.08692528925],[51.50454641074, -0.08699079148],[51.50432597728, -0.08725939132],[51.50430729983, -0.08721694551],[51.50382074106, -0.08605576946],[51.50341335087, -0.0853379787],[51.50298022199, -0.08414578616],[51.50287643111, -0.08384755311],[51.50264946224, -0.08316545175],[51.50245914142, -0.0825250449],[51.50145411434, -0.08210616175],[51.5013727656, -0.08208076031],[51.5010830808, -0.08196324778],[51.50101071846, -0.08193746947],[51.50078440947, -0.08184611402],[51.50056755785, -0.08178317861],[51.50041361114, -0.08171760232],[51.5001962884, -0.08162587172],[51.49996099275, -0.08153489672],[51.49993379796, -0.0815216308],[51.49984299159, -0.08146781252],[51.49976164271, -0.08144241305],[51.49945351332, -0.08129686748],[51.49919125816, -0.08120702787],[51.49918321403, -0.08126499655],[51.49915931702, -0.08145330029],[51.49915197937, -0.08155446232],[51.49913730382, -0.08175678627],[51.49914629024, -0.08175640894]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "name": "London Bridge Station",
+                "uri": "/StopPoint/",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 899,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 150,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 0,
+            "highZone": 0,
+            "cost": 150,
+            "isHopperFare": false,
+            "peak": 0,
+            "offPeak": 0,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "490G00011751",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Bus",
+                  "validationType": "Entry",
+                  "hostDeviceType": "ETM",
+                  "busRouteId": "141",
+                  "nationalLocationCode": 0,
+                  "tapTimestamp": "2020-05-28T20:26:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2020-05-28T20:37:00",
+      "duration": 59,
+      "arrivalDateTime": "2020-05-28T21:37:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 9,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Portland Rise Estate",
+            "detailed": "Walk to Portland Rise Estate",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Green Lanes for 16 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Green Lanes",
+                "distance": 16,
+                "cumulativeDistance": 16,
+                "skyDirection": 513,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 14,
+                "latitude": 51.569950107349996,
+                "longitude": -0.0953430956,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T20:37:00",
+          "arrivalTime": "2020-05-28T20:46:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "323 Green Lanes, Stamford Hill",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.569959093730006,
+            "lon": -0.09534272
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00011751",
+            "platformName": "",
+            "stopLetter": "J",
+            "icsCode": "1011751",
+            "commonName": "Portland Rise Estate",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56982265946,
+            "lon": -0.0952474124
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.56995909373, -0.09534272],[51.56995010735, -0.0953430956],[51.56982242538, -0.09523299216]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 16,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 42,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "141 bus to London Bridge Bus Station",
+            "detailed": "141 bus towards London Bridge",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T20:38:00",
+          "arrivalTime": "2020-05-28T21:20:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00011751",
+            "platformName": "",
+            "stopLetter": "J",
+            "icsCode": "1011751",
+            "commonName": "Portland Rise Estate",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56982265946,
+            "lon": -0.0952474124
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G000970",
+            "platformName": "",
+            "stopLetter": "C",
+            "icsCode": "1019954",
+            "commonName": "London Bridge Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50504700631,
+            "lon": -0.08735888305999999
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.5698237901, -0.09524228835],[51.56972240473, -0.09516502301],[51.56941288795, -0.09493265276],[51.56931263302, -0.09485026479],[51.56851223088, -0.09429211256],[51.56720279544, -0.09408971213],[51.56720279544, -0.09408971213],[51.56704276661, -0.09406497709],[51.56657406942, -0.09399800412],[51.56562253486, -0.09354722213],[51.5654771128, -0.09345230459],[51.56462278597, -0.09289647839],[51.56437462495, -0.09274091966],[51.56437462495, -0.09274091966],[51.56427755373, -0.09268007144],[51.56391411394, -0.09245000156],[51.56283652989, -0.09199012525],[51.5626014773, -0.09191339805],[51.56252002178, -0.09188647775],[51.56252002178, -0.09188647775],[51.56233024467, -0.09182375855],[51.56071910363, -0.09173250375],[51.56019742462, -0.09172548821],[51.55996119935, -0.09157668104],[51.55978358103, -0.09146286277],[51.55978358103, -0.09146286277],[51.55905247652, -0.09099437904],[51.55782946235, -0.09043969073],[51.55767669393, -0.09044608962],[51.55758636089, -0.090421021],[51.55713563419, -0.09035334406],[51.55689651447, -0.09032447724],[51.55689651447, -0.09032447724],[51.55598232734, -0.09021411796],[51.55576360362, -0.09003574747],[51.55566334538, -0.08995339424],[51.55511712149, -0.08954351618],[51.55489766647, -0.08936523628],[51.55489766647, -0.08936523628],[51.55454299794, -0.08907711627],[51.55443375268, -0.08899514394],[51.55393245743, -0.08858340452],[51.55362269323, -0.08833674192],[51.55331451771, -0.08806099066],[51.55331451771, -0.08806099066],[51.55312991227, -0.08789581026],[51.55278020666, -0.08740561287],[51.55255871254, -0.08650615583],[51.55241903891, -0.08614590237],[51.55241903891, -0.08614590237],[51.55223953764, -0.08568293077],[51.5521532504, -0.08535479118],[51.55209627401, -0.08516966609],[51.55204428362, -0.08473911714],[51.55188751501, -0.08450048776],[51.55164512276, -0.08458889405],[51.55164512276, -0.08458889405],[51.55099358572, -0.08482652032],[51.55089450048, -0.08481625778],[51.54917557782, -0.08438333924],[51.54917557782, -0.08438333924],[51.5489802147, -0.08433413813],[51.54861012647, -0.08424872105],[51.54697970662, -0.08382458594],[51.54697970662, -0.08382458594],[51.5469394115, -0.083814104],[51.54657878005, -0.08375714253],[51.54593034962, -0.08369785172],[51.54578609701, -0.08367506782],[51.54511945833, -0.08360212174],[51.54421119542, -0.08394115271],[51.54421119542, -0.08394115271],[51.54376981475, -0.08410590345],[51.54311757552, -0.08436404508],[51.54256347974, -0.08457479369],[51.54207556966, -0.08474391576],[51.54207556966, -0.08474391576],[51.54175870613, -0.08485374666],[51.54122258198, -0.08506372814],[51.54067794139, -0.0853029036],[51.54030183684, -0.0854419402],[51.54030183684, -0.0854419402],[51.53953379956, -0.08572585706],[51.53895297665, -0.08595211299],[51.53886334794, -0.08597029372],[51.53835394532, -0.08616470674],[51.53802675875, -0.08630422031],[51.53802675875, -0.08630422031],[51.5374162514, -0.08656453717],[51.53732351159, -0.08694334012],[51.53715365193, -0.08755608971],[51.53644900166, -0.08901315419],[51.53628530797, -0.08932278919],[51.53628530797, -0.08932278919],[51.5360826033, -0.08970621019],[51.53590217119, -0.08967050694],[51.53534555176, -0.08917472423],[51.53498140095, -0.08890159481],[51.53432592795, -0.08840997269],[51.53395413878, -0.08813661262],[51.53395413878, -0.08813661262],[51.53384354315, -0.08805529749],[51.53335193602, -0.08768659766],[51.53284212004, -0.08730425055],[51.53261902322, -0.08716538541],[51.53261902322, -0.08716538541],[51.53167018579, -0.08657480383],[51.53121616518, -0.08630548519],[51.53100806771, -0.08622770563],[51.53021961521, -0.08640494634],[51.52984375326, -0.0868273432],[51.52984375326, -0.0868273432],[51.52948666813, -0.08722863034],[51.52913831267, -0.08737298564],[51.52903141544, -0.08743513424],[51.52829071109, -0.08778334727],[51.52824624877, -0.087814044],[51.52763846068, -0.08804134309],[51.52738256235, -0.08803103891],[51.52738256235, -0.08803103891],[51.52728752097, -0.08802721192],[51.52699831196, -0.08793841241],[51.52687297186, -0.08797249638],[51.52671262541, -0.08806571222],[51.52625931257, -0.08783962582],[51.52613044962, -0.08765761397],[51.5260105728, -0.08747522658],[51.52589780275, -0.08717721325],[51.5258514611, -0.08709265872],[51.52566157179, -0.08702853697],[51.52544942194, -0.08725366857],[51.52537753066, -0.08725668135],[51.52535955784, -0.08725743455],[51.52517295738, -0.08739499756],[51.52501378575, -0.08756024185],[51.52463565176, -0.08753283836],[51.52457251198, -0.08752106821],[51.52420004421, -0.08745026915],[51.52420004421, -0.08745026915],[51.52401324035, -0.08741476169],[51.52370699759, -0.0873843474],[51.52348139765, -0.08733613897],[51.52323782485, -0.08728868411],[51.52290742507, -0.08720335873],[51.52290742507, -0.08720335873],[51.52218124609, -0.08701582798],[51.5219107139, -0.08696950582],[51.52157892136, -0.08702665491],[51.52103215954, -0.0871360551],[51.52050384018, -0.08727350861],[51.52009964942, -0.08740237773],[51.52009964942, -0.08740237773],[51.51993129311, -0.08745605446],[51.5192513783, -0.08767192121],[51.51833352545, -0.08818602162],[51.51813723271, -0.08828072368],[51.51794140939, -0.08840423248],[51.51781314166, -0.08847220463],[51.51781314166, -0.08847220463],[51.51746888443, -0.08865463278],[51.51732604041, -0.08871826658],[51.51654867996, -0.08902465898],[51.5162715085, -0.08912273852],[51.5159998851, -0.08922169332],[51.5159998851, -0.08922169332],[51.51595862584, -0.08923672432],[51.51568192341, -0.08936360737],[51.51534184652, -0.08946431505],[51.51477875069, -0.08967524077],[51.51457276632, -0.08972709642],[51.51394579208, -0.08933140925],[51.51394579208, -0.08933140925],[51.51337341738, -0.08897019019],[51.51313437217, -0.08864871635],[51.51282413886, -0.08837346212],[51.51248718039, -0.08811374243],[51.5123320632, -0.08797611858],[51.51212255765, -0.08781194959],[51.51204949212, -0.08774295044],[51.51198611745, -0.08771678088],[51.51164892273, -0.08744266889],[51.51155788413, -0.0873744238],[51.51144192746, -0.08727527838],[51.51144192746, -0.08727527838],[51.51122045374, -0.08708591519],[51.5109471023, -0.08686678318],[51.51087121698, -0.08662496876],[51.51071040102, -0.08668935216],[51.51030883075, -0.08687911135],[51.50980793956, -0.08704420537],[51.50973651788, -0.08707601917],[51.50952201788, -0.08715705884],[51.50952201788, -0.08715705884],[51.50902159588, -0.08735094867],[51.5089144632, -0.08739866775],[51.50790392696, -0.08774360664],[51.50682149784, -0.08809153917],[51.50673210291, -0.08812410149],[51.50641969002, -0.08826686887],[51.5063395162, -0.08831345453],[51.50617940321, -0.08842102543],[51.50605077629, -0.08825349049],[51.50578929554, -0.08765922433],[51.5056304205, -0.08729122327],[51.50559306561, -0.08720632926],[51.50554625447, -0.08709301201],[51.50549967811, -0.08699409485],[51.5051198987, -0.08686590536]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00011127",
+                "name": "Gloucester Drive",
+                "uri": "/StopPoint/490G00011127",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009364",
+                "name": "Lordship Park",
+                "uri": "/StopPoint/490G00009364",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00008767",
+                "name": "Kings Crescent Estate",
+                "uri": "/StopPoint/490G00008767",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00016700",
+                "name": "Riversdale Road",
+                "uri": "/StopPoint/490G00016700",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00019866",
+                "name": "Stoke Newington Church Street",
+                "uri": "/StopPoint/490G00019866",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00004600",
+                "name": "Petherton Road",
+                "uri": "/StopPoint/490G00004600",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003114",
+                "name": "Aden Grove",
+                "uri": "/StopPoint/490G00003114",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000675",
+                "name": "Albion Road",
+                "uri": "/StopPoint/490G000675",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000893",
+                "name": "Newington Green",
+                "uri": "/StopPoint/490G000893",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009869",
+                "name": "Mildmay Grove",
+                "uri": "/StopPoint/490G00009869",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015133",
+                "name": "Balls Pond Road",
+                "uri": "/StopPoint/490G00015133",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003367",
+                "name": "Southgate Road / Ardleigh Road",
+                "uri": "/StopPoint/490G00003367",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015109",
+                "name": "Northchurch Road",
+                "uri": "/StopPoint/490G00015109",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006169",
+                "name": "Downham Road",
+                "uri": "/StopPoint/490G00006169",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00015282",
+                "name": "Canal Walk",
+                "uri": "/StopPoint/490G00015282",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003601",
+                "name": "Baring Street",
+                "uri": "/StopPoint/490G00003601",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006289",
+                "name": "Eagle Wharf Road",
+                "uri": "/StopPoint/490G00006289",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00009942",
+                "name": "Mintern Street",
+                "uri": "/StopPoint/490G00009942",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00003960",
+                "name": "Bevenden Street",
+                "uri": "/StopPoint/490G00003960",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000872",
+                "name": "Old Street Stn / Moorfields Eye Hosp",
+                "uri": "/StopPoint/490G000872",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000873",
+                "name": "City Road / Leonard Street",
+                "uri": "/StopPoint/490G000873",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00006612",
+                "name": "Epworth Street",
+                "uri": "/StopPoint/490G00006612",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000282",
+                "name": "Finsbury Square / Moorgate",
+                "uri": "/StopPoint/490G000282",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00149L",
+                "name": "Moorgate Station",
+                "uri": "/StopPoint/490G00149L",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00007417",
+                "name": "Great Swan Alley",
+                "uri": "/StopPoint/490G00007417",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000713",
+                "name": "Bank Station / Princes Street",
+                "uri": "/StopPoint/490G000713",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00019175",
+                "name": "King William Street / Monument Stn",
+                "uri": "/StopPoint/490G00019175",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G09267E",
+                "name": "Monument Station",
+                "uri": "/StopPoint/490G09267E",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G000970",
+                "name": "London Bridge Station",
+                "uri": "/StopPoint/490G000970",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "141",
+              "directions": ["London Bridge"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "141",
+                "name": "141",
+                "uri": "/Line/141",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "bus",
+            "name": "bus",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "PlannedWork",
+              "type": "lineInfo",
+              "categoryDescription": "PlannedWork",
+              "description": "From 20:00 Friday, 13 March until 18:00 Friday, 16 October, London Bridge is closed to traffic except Buses, Taxi's and Cycles during bridge improvement works. During this time, buses will not be able to serve Bus Stops M & Y (London Bridge) and Bus Stops P & Q (Monument Station). Bus Stop M, Gracechurch Street has been relocated south of Fencurch Street for the duration of these works.",
+              "summary": "NOE CE20/649/A / LONDON BRIDGE, SE1 / ROUTES 17 21 35 43 47 133 141 149 344 388 521 N21 N133 N199",
+              "additionalInfo": "",
+              "created": "2020-03-16T17:10:00",
+              "lastUpdate": "2020-03-16T18:02:00"
+            }
+          ],
+          "plannedWorks": [],
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 17,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "detailed": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Joiner Street for 42 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Joiner Street",
+                "distance": 42,
+                "cumulativeDistance": 42,
+                "skyDirection": 184,
+                "skyDirectionDescription": "South",
+                "cumulativeTravelTime": 39,
+                "latitude": 51.50511091226,
+                "longitude": -0.08686628176,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 52 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 52,
+                "cumulativeDistance": 94,
+                "skyDirection": 191,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 86,
+                "latitude": 51.504734186449994,
+                "longitude": -0.08692528925,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to St Thomas Street, continue for 391 metres",
+                "turnDirection": "LEFT",
+                "streetName": "St Thomas Street",
+                "distance": 391,
+                "cumulativeDistance": 485,
+                "skyDirection": 484,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 437,
+                "latitude": 51.50432597728,
+                "longitude": -0.08725939131999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Bermondsey Street, continue for 376 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Bermondsey Street",
+                "distance": 376,
+                "cumulativeDistance": 861,
+                "skyDirection": 524,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 773,
+                "latitude": 51.50245914142,
+                "longitude": -0.0825250449,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Royal Oak Yard, continue for 38 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Royal Oak Yard",
+                "distance": 38,
+                "cumulativeDistance": 899,
+                "skyDirection": 256,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 804,
+                "latitude": 51.49919125816,
+                "longitude": -0.08120702787,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T21:20:00",
+          "arrivalTime": "2020-05-28T21:37:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G000970",
+            "platformName": "",
+            "stopLetter": "C",
+            "icsCode": "1019954",
+            "commonName": "London Bridge Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50504700631,
+            "lon": -0.08735888305999999
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "1 Royal Oak Yard, Bermondsey",
+            "placeType": "StopPoint",
+            "lat": 51.49914629024,
+            "lon": -0.08175640894
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.50511091226, -0.08686628176],[51.50473418645, -0.08692528925],[51.50454641074, -0.08699079148],[51.50432597728, -0.08725939132],[51.50430729983, -0.08721694551],[51.50382074106, -0.08605576946],[51.50341335087, -0.0853379787],[51.50298022199, -0.08414578616],[51.50287643111, -0.08384755311],[51.50264946224, -0.08316545175],[51.50245914142, -0.0825250449],[51.50145411434, -0.08210616175],[51.5013727656, -0.08208076031],[51.5010830808, -0.08196324778],[51.50101071846, -0.08193746947],[51.50078440947, -0.08184611402],[51.50056755785, -0.08178317861],[51.50041361114, -0.08171760232],[51.5001962884, -0.08162587172],[51.49996099275, -0.08153489672],[51.49993379796, -0.0815216308],[51.49984299159, -0.08146781252],[51.49976164271, -0.08144241305],[51.49945351332, -0.08129686748],[51.49919125816, -0.08120702787],[51.49918321403, -0.08126499655],[51.49915931702, -0.08145330029],[51.49915197937, -0.08155446232],[51.49913730382, -0.08175678627],[51.49914629024, -0.08175640894]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "name": "London Bridge Station",
+                "uri": "/StopPoint/",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 899,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 150,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 0,
+            "highZone": 0,
+            "cost": 150,
+            "isHopperFare": false,
+            "peak": 0,
+            "offPeak": 0,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "490G00011751",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Bus",
+                  "validationType": "Entry",
+                  "hostDeviceType": "ETM",
+                  "busRouteId": "141",
+                  "nationalLocationCode": 0,
+                  "tapTimestamp": "2020-05-28T20:38:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2020-05-28T20:51:00",
+      "duration": 57,
+      "arrivalDateTime": "2020-05-28T21:48:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 12,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Portland Rise",
+            "detailed": "Walk to Portland Rise",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Green Lanes for 86 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Green Lanes",
+                "distance": 86,
+                "cumulativeDistance": 86,
+                "skyDirection": 333,
+                "skyDirectionDescription": "NorthWest",
+                "cumulativeTravelTime": 79,
+                "latitude": 51.569959093730006,
+                "longitude": -0.09534272,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Seven Sisters Road, continue for 122 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Seven Sisters Road",
+                "distance": 122,
+                "cumulativeDistance": 208,
+                "skyDirection": 228,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 190,
+                "latitude": 51.57062563125,
+                "longitude": -0.09596422238999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T20:51:00",
+          "arrivalTime": "2020-05-28T21:03:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "323 Green Lanes, Stamford Hill",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.569959093730006,
+            "lon": -0.09534272
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00020010",
+            "platformName": "R",
+            "stopLetter": "R",
+            "icsCode": "1020010",
+            "commonName": "Portland Rise",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.569861593460004,
+            "lon": -0.09709282861
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.56995909373, -0.09534272],[51.57035065738, -0.09564381768],[51.57062563125, -0.09596422239],[51.5703812653, -0.09642176897],[51.56981759689, -0.09715238588]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 208,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 10,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "254 bus or 29 bus or 253 bus or 259 bus to Finsbury Park Station",
+            "detailed": "254 bus towards Holloway, Nags Head or 29 bus towards Trafalgar Square or 253 bus towards Euston or 259 bus towards King's Cross",
+            "steps": []
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000083,
+              "position": "AFTER"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000083,
+              "position": "AFTER"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "DOWN",
+              "stopId": 1000083,
+              "position": "AFTER"
+            }
+          ],
+          "departureTime": "2020-05-28T20:55:00",
+          "arrivalTime": "2020-05-28T21:05:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00020010",
+            "platformName": "R",
+            "stopLetter": "R",
+            "icsCode": "1020010",
+            "commonName": "Portland Rise",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.569861593460004,
+            "lon": -0.09709282861
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00083R",
+            "platformName": "S",
+            "stopLetter": "S",
+            "icsCode": "1000083",
+            "commonName": "Finsbury Park Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56425035147,
+            "lon": -0.10654675228
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "254",
+              "directions": ["Holloway, Nags Head"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "254",
+                "name": "254",
+                "uri": "/Line/254",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "29",
+              "directions": ["Trafalgar Square"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "29",
+                "name": "29",
+                "uri": "/Line/29",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "253",
+              "directions": ["Euston"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "253",
+                "name": "253",
+                "uri": "/Line/253",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "259",
+              "directions": ["King's Cross"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "259",
+                "name": "259",
+                "uri": "/Line/259",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "bus",
+            "name": "bus",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "stopInfo",
+              "categoryDescription": "RealTime",
+              "description": "Finsbury Park: No Step Free Access - Step free access exit is not available while we work to maintain social distancing. Step free entry is still available. Call our Travel Information Centre on 0343 222 1234 if you need help planning your journey.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T00:46:00",
+              "lastUpdate": "2020-05-28T00:46:00"
+            }
+          ],
+          "plannedWorks": [],
+          "distance": 9,
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 1,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Victoria line to Highbury & Islington",
+            "detailed": "Victoria line towards Brixton",
+            "steps": []
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000108,
+              "position": "AFTER"
+            }
+          ],
+          "departureTime": "2020-05-28T21:09:00",
+          "arrivalTime": "2020-05-28T21:10:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUFPK",
+            "platformName": "",
+            "icsCode": "1000083",
+            "commonName": "Finsbury Park Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.56425035147,
+            "lon": -0.10654675228
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUHAI",
+            "platformName": "",
+            "icsCode": "1000108",
+            "commonName": "Highbury & Islington Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.54605384565,
+            "lon": -0.10402837952
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.56441705433, -0.10573998458],[51.56401312336, -0.10577748679],[51.56345666184, -0.10584389631],[51.56055459209, -0.10655599596],[51.55841907166, -0.10684666226],[51.55707683199, -0.106700436],[51.55593848873, -0.10637264235],[51.55491007634, -0.10617012531],[51.55245589203, -0.10510367249],[51.55114097967, -0.10442268526],[51.55018026272, -0.1039577883],[51.54897854054, -0.1036038968],[51.54842114703, -0.10361265195],[51.54774576454, -0.10355419787],[51.54678006904, -0.10323693142]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "Victoria",
+              "directions": ["Brixton Underground Station"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "victoria",
+                "name": "Victoria",
+                "uri": "/Line/victoria",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "tube",
+            "name": "tube",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "lineInfo",
+              "categoryDescription": "RealTime",
+              "description": "Victoria Line: A 3 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T18:44:00",
+              "lastUpdate": "2020-05-28T18:44:00"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "stopInfo",
+              "categoryDescription": "RealTime",
+              "description": "Finsbury Park: No Step Free Access - Step free access exit is not available while we work to maintain social distancing. Step free entry is still available. Call our Travel Information Centre on 0343 222 1234 if you need help planning your journey.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T00:46:00",
+              "lastUpdate": "2020-05-28T00:46:00"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "stopInfo",
+              "categoryDescription": "RealTime",
+              "description": "FINSBURY PARK STATION: Please enter the station via the western ticket hall on Goodwin Street, off Fonthill Road, and exit the station via Station Place by the Arsenal store and bus station. The Seven Sisters Road subway is closed.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-04-01T18:33:00",
+              "lastUpdate": "2020-05-28T14:37:00"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "routeBlocking",
+              "categoryDescription": "RealTime",
+              "description": "London Overground: No service between Willesden Junction and Clapham Junction/Richmond while we fix a signal failure at Camden Road. Also No service Highbury & Islington and Gospel Oak due to signal failure at Camden Road London Underground accepts tickets. London Overground services are not stopping at Bethnal Green, Cambridge Heath and Hackney Downs due to faulty overhead wires at Bethnal Green There is no service between Surrey Quays and New Cross and a special service is in operation on all other routes due to operational restrictions. Public transport should only be used for essential journeys.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T20:28:00",
+              "lastUpdate": "2020-05-28T20:28:00"
+            }
+          ],
+          "plannedWorks": [],
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 5,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Great Northern to Old Street",
+            "detailed": "Great Northern towards Moorgate",
+            "steps": []
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "DOWN",
+              "stopId": 1000169,
+              "position": "AFTER"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "DOWN",
+              "stopId": 1000169,
+              "position": "AFTER"
+            }
+          ],
+          "departureTime": "2020-05-28T21:12:00",
+          "arrivalTime": "2020-05-28T21:17:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GHGHI",
+            "platformName": "",
+            "icsCode": "1000108",
+            "commonName": "Highbury & Islington Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.54605384565,
+            "lon": -0.10402837952
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GOLDST",
+            "platformName": "",
+            "icsCode": "1000169",
+            "commonName": "Old Street Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.52572793996,
+            "lon": -0.08778980744
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "Great Northern",
+              "directions": ["Moorgate Rail Station"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "great-northern",
+                "name": "Great Northern",
+                "uri": "/Line/great-northern",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "national-rail",
+            "name": "national-rail",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "routeBlocking",
+              "categoryDescription": "RealTime",
+              "description": "London Overground: No service between Willesden Junction and Clapham Junction/Richmond while we fix a signal failure at Camden Road. Also No service Highbury & Islington and Gospel Oak due to signal failure at Camden Road London Underground accepts tickets. London Overground services are not stopping at Bethnal Green, Cambridge Heath and Hackney Downs due to faulty overhead wires at Bethnal Green There is no service between Surrey Quays and New Cross and a special service is in operation on all other routes due to operational restrictions. Public transport should only be used for essential journeys.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T20:28:00",
+              "lastUpdate": "2020-05-28T20:28:00"
+            }
+          ],
+          "plannedWorks": [],
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 5,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Northern line to London Bridge",
+            "detailed": "Northern line towards Morden",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2020-05-28T21:21:00",
+          "arrivalTime": "2020-05-28T21:26:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLUODS",
+            "platformName": "",
+            "icsCode": "1000169",
+            "commonName": "Old Street Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.52572793996,
+            "lon": -0.08778980744
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLULNB",
+            "platformName": "",
+            "icsCode": "1000139",
+            "commonName": "London Bridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50549069167,
+            "lon": -0.08699447123
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "Northern",
+              "directions": ["Morden"],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "northern",
+                "name": "Northern",
+                "uri": "/Line/northern",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "tube",
+            "name": "tube",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "lineInfo",
+              "categoryDescription": "RealTime",
+              "description": "Northern Line: A 4 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-28T18:44:00",
+              "lastUpdate": "2020-05-28T18:44:00"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "PlannedWork",
+              "type": "stopInfo",
+              "categoryDescription": "PlannedWork",
+              "description": "LONDON BRIDGE STATION: Please note that step free interchange between the Jubilee and Northern lines is partly at street level, in both directions. Lifts are available between Northern line and Borough High Street entrance then via Borough High Street, St Thomas Street and Joiner Street to the main Underground ticket hall from where lifts are available to/from the Jubilee line.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2018-01-22T11:40:00",
+              "lastUpdate": "2018-03-05T15:29:00"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+              "category": "RealTime",
+              "type": "stopInfo",
+              "categoryDescription": "RealTime",
+              "description": "LONDON BRIDGE UNDERGROUND STATION: This station is likely to be very busy between 05:45-08:15 and 16:00-17:30. Where possible, travel outside of these times and consider cycling or walking, including parts of your journey. Entry is expected to be busy, please expect to queue to enter so we can help maintain the national 2 metre social distancing.",
+              "summary": "",
+              "additionalInfo": "",
+              "created": "2020-05-18T09:48:00",
+              "lastUpdate": "2020-05-28T14:53:00"
+            }
+          ],
+          "plannedWorks": [],
+          "isDisrupted": true,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 22,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "detailed": "Walk to 1 Royal Oak Yard, Bermondsey",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": " for 14 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 14,
+                "cumulativeDistance": 14,
+                "skyDirection": 403,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 13,
+                "latitude": 51.50573620429,
+                "longitude": -0.08660953442,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Duke Street Hill, continue for 29 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Duke Street Hill",
+                "distance": 29,
+                "cumulativeDistance": 43,
+                "skyDirection": 464,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 39,
+                "latitude": 51.50582371923,
+                "longitude": -0.08646177031,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Tooley Street, continue for 209 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Tooley Street",
+                "distance": 209,
+                "cumulativeDistance": 252,
+                "skyDirection": 467,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 227,
+                "latitude": 51.50573626196,
+                "longitude": -0.08606196091,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Bermondsey Street, continue for 641 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Bermondsey Street",
+                "distance": 641,
+                "cumulativeDistance": 893,
+                "skyDirection": 509,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 802,
+                "latitude": 51.504741843000005,
+                "longitude": -0.08353874691,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Royal Oak Yard, continue for 38 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Royal Oak Yard",
+                "distance": 38,
+                "cumulativeDistance": 931,
+                "skyDirection": 256,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 834,
+                "latitude": 51.49919125816,
+                "longitude": -0.08120702787,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000139,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "ESCALATOR",
+              "incline": "UP",
+              "stopId": 1000139,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "RAMP",
+              "incline": "UP",
+              "stopId": 1000139,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000139,
+              "position": "BEFORE"
+            }
+          ],
+          "departureTime": "2020-05-28T21:26:00",
+          "arrivalTime": "2020-05-28T21:48:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "940GZZLULNB",
+            "platformName": "",
+            "icsCode": "1000139",
+            "commonName": "London Bridge Underground Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.50549069167,
+            "lon": -0.08699447123
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "1 Royal Oak Yard, Bermondsey",
+            "placeType": "StopPoint",
+            "lat": 51.49914629024,
+            "lon": -0.08175640894
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.50572367612, -0.08859860604],[51.50577003556, -0.08647842918],[51.50575247284, -0.08705555577],[51.50586018302, -0.08814618959],[51.50572698292, -0.08659551096],[51.50573620429, -0.08660953442],[51.50582371923, -0.08646177031],[51.50578401402, -0.08623287728],[51.5057556448, -0.08614760733],[51.50573626196, -0.08606196091],[51.50564833323, -0.0856333533],[51.50550742478, -0.08526460714],[51.50533080462, -0.08491177021],[51.50528422644, -0.08481285579],[51.50510666415, -0.08440242352],[51.50506907198, -0.0843031332],[51.50492910045, -0.08399199446],[51.504741843, -0.08353874691],[51.50448622269, -0.08330451269],[51.50373587802, -0.0830622247],[51.50271264457, -0.08262967418],[51.50254072548, -0.08256484657],[51.50245914142, -0.0825250449],[51.50145411434, -0.08210616175],[51.5013727656, -0.08208076031],[51.5010830808, -0.08196324778],[51.50101071846, -0.08193746947],[51.50078440947, -0.08184611402],[51.50056755785, -0.08178317861],[51.50041361114, -0.08171760232],[51.5001962884, -0.08162587172],[51.49996099275, -0.08153489672],[51.49993379796, -0.0815216308],[51.49984299159, -0.08146781252],[51.49976164271, -0.08144241305],[51.49945351332, -0.08129686748],[51.49919125816, -0.08120702787],[51.49918321403, -0.08126499655],[51.49915931702, -0.08145330029],[51.49915197937, -0.08155446232],[51.49913730382, -0.08175678627],[51.49914629024, -0.08175640894]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [""]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 931,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 390,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 0,
+            "highZone": 0,
+            "cost": 150,
+            "isHopperFare": false,
+            "peak": 0,
+            "offPeak": 0,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "490G00020010",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Bus",
+                  "validationType": "Entry",
+                  "hostDeviceType": "ETM",
+                  "busRouteId": "254",
+                  "nationalLocationCode": 0,
+                  "tapTimestamp": "2020-05-28T20:55:00"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 1,
+            "highZone": 2,
+            "cost": 240,
+            "chargeProfileName": "Z1 PM Counterflow",
+            "isHopperFare": false,
+            "chargeLevel": "Off Peak",
+            "peak": 290,
+            "offPeak": 240,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "940GZZLUFPK",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "PVal",
+                  "nationalLocationCode": 580,
+                  "tapTimestamp": "2020-05-28T21:09:00"
+                }
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "940GZZLULNB",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 635,
+                  "tapTimestamp": "2020-05-28T21:26:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "<p>Fares between two stations may vary depending on the direction of travel, time of day and day of the week.</p><p>We charge higher fares at the busiest times of the day (usually between 06:30 and 09:30, and between 16:00 and 19:00, Monday to Friday).</p><p>When you pay as you go, you must touch your contactless or Oyster card on a yellow reader at the start and end of your journey.</p><p>Some journeys are charged via Zone 1 regardless of the route taken.</p><p>If your journey avoids Zone 1 and you see a pink card reader when changing trains, touch your contactless or Oyster card on it to pay the right fare.</p>",
+            "type": "allRailModes"
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    }
+  ],
+  "lines": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "141",
+      "name": "141",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.253Z",
+      "modified": "2020-05-12T14:49:50.253Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "lineId": "141",
+          "statusSeverity": 0,
+          "statusSeverityDescription": "Special Service",
+          "reason": "From 20:00 Friday, 13 March until 18:00 Friday, 16 October, London Bridge is closed to traffic except Buses, Taxi's and Cycles during bridge improvement works. During this time, buses will not be able to serve Bus Stops M & Y (London Bridge) and Bus Stops P & Q (Monument Station). Bus Stop M, Gracechurch Street has been relocated south of Fencurch Street for the duration of these works.",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+              "fromDate": "2020-03-13T20:00:00Z",
+              "toDate": "2020-10-16T20:00:00Z",
+              "isNow": false
+            }
+          ],
+          "disruption": {
+            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+            "category": "PlannedWork",
+            "categoryDescription": "PlannedWork",
+            "description": "From 20:00 Friday, 13 March until 18:00 Friday, 16 October, London Bridge is closed to traffic except Buses, Taxi's and Cycles during bridge improvement works. During this time, buses will not be able to serve Bus Stops M & Y (London Bridge) and Bus Stops P & Q (Monument Station). Bus Stop M, Gracechurch Street has been relocated south of Fencurch Street for the duration of these works.",
+            "created": "2020-03-16T17:10:00Z",
+            "affectedRoutes": [],
+            "affectedStops": []
+          }
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=141&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "253",
+      "name": "253",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.263Z",
+      "modified": "2020-05-12T14:49:50.263Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=253&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "254",
+      "name": "254",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.267Z",
+      "modified": "2020-05-12T14:49:50.267Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=254&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "259",
+      "name": "259",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.27Z",
+      "modified": "2020-05-12T14:49:50.27Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=259&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "29",
+      "name": "29",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.253Z",
+      "modified": "2020-05-12T14:49:50.253Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=29&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "northern",
+      "name": "Northern",
+      "modeName": "tube",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.253Z",
+      "modified": "2020-05-12T14:49:50.253Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "lineId": "northern",
+          "statusSeverity": 0,
+          "statusSeverityDescription": "Special Service",
+          "reason": "Northern Line: A 4 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+              "fromDate": "2020-05-28T15:57:19Z",
+              "toDate": "2020-05-28T21:57:19Z",
+              "isNow": true
+            }
+          ],
+          "disruption": {
+            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+            "category": "RealTime",
+            "categoryDescription": "RealTime",
+            "description": "Northern Line: A 4 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+            "affectedRoutes": [],
+            "affectedStops": [],
+            "closureText": "specialService"
+          }
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Night",
+          "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "victoria",
+      "name": "Victoria",
+      "modeName": "tube",
+      "disruptions": [],
+      "created": "2020-05-12T14:49:50.253Z",
+      "modified": "2020-05-12T14:49:50.253Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "lineId": "victoria",
+          "statusSeverity": 0,
+          "statusSeverityDescription": "Special Service",
+          "reason": "Victoria Line: A 3 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+              "fromDate": "2020-05-28T15:57:48Z",
+              "toDate": "2020-05-28T21:57:48Z",
+              "isNow": true
+            }
+          ],
+          "disruption": {
+            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+            "category": "RealTime",
+            "categoryDescription": "RealTime",
+            "description": "Victoria Line: A 3 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+            "affectedRoutes": [],
+            "affectedStops": [],
+            "closureText": "specialService"
+          }
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Night",
+          "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    }
+  ],
+  "stopMessages": [],
+  "recommendedMaxAgeMinutes": 5,
+  "searchCriteria": {},
+  "journeyVector": {}
+}
