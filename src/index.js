@@ -1,33 +1,53 @@
-import { parseCoordString, getMidpointBetweenCoords } from "./utils";
-import { getJourney } from "./journey";
-
 import "dotenv/config";
 
 import express from "express";
+import cors from "cors";
+
+import { parseCoordString, getMidpointBetweenCoords } from "./utils";
+import { getJourney, findJourneyIntersection } from "./journey";
 
 // Set up the express app
 const app = express();
 
-app.get("/api/v1/directions/:coord1/:coord2", async(req, res) => {
+app.use(cors());
+
+app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
   const { params } = req;
   const { coord1, coord2 } = params;
-  
+
   const from = parseCoordString(coord1);
   const to = parseCoordString(coord2);
-  const midpoint = getMidpointBetweenCoords(from, to);
-  
-  const fromJourney = await getJourney(from, midpoint);
-  const toJourney = await getJourney(to, midpoint);
 
-  res.status(200).send({
-    success: "true",
-    data: {
-      from,
-      to,
-      midpoint,
-      journeys: [fromJourney, toJourney]
-    },
-  });
+  //  calculate theoretical midpoint both journeys
+  //  should aim for
+  const midpoint = getMidpointBetweenCoords(from, to);
+
+  try {
+    console.log("Fetching first journey!");
+    let fromJourney = await getJourney(from, midpoint);
+
+    console.log("Fetching second journey!");
+    let toJourney = await getJourney(to, midpoint);
+
+    //  remove the shared part of the journey
+    const [truncatedFromJourney, truncatedToJourney] = findJourneyIntersection(
+      fromJourney,
+      toJourney
+    );
+
+    res.status(200).send({
+      success: "true",
+      data: {
+        from,
+        to,
+        midpoint,
+        journeys: [truncatedFromJourney, truncatedToJourney],
+      },
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500);
+  }
 });
 const PORT = 5000;
 
