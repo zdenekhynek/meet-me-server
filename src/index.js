@@ -42,6 +42,7 @@ app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
         to,
         midpoint,
         journeys: [truncatedFromJourney, truncatedToJourney],
+        fullJourneys: [fromJourney, toJourney],
       },
     });
   } catch (err) {
