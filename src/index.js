@@ -51,8 +51,7 @@ app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
     res.status(500);
   }
 });
-const PORT = 5000;
-
-app.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+  console.log(`server running on port ${port}`);
 });
