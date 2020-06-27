@@ -113,6 +113,39 @@ export const findJourneyIntersection = (journey1 = {}, journey2 = {}) => {
   return [truncatedFromJourney, truncatedToJourney];
 };
 
+export const getDestination = (journey1 = {}, journey2 = {}) => {
+  //  get summary of the last leg
+
+  //  check that journey has leg
+  let journey = null;
+  if (journey1 && journey1.legs && journey1.legs.length) {
+    journey = journey1;
+  } else if (journey2 && journey2.legs && journey2.legs.length) {
+    journey = journey2;
+  } else {
+    //  do not have enough information
+    return { name: "", coord: null };
+  }
+
+  //  get last leg
+  const legsLen = journey.legs.length;
+  const lastLeg = journey.legs[legsLen - 1];
+  const { summary, coords } = lastLeg;
+
+  //  get the last coord
+  let coord = null;
+  const coordsLen = (coords) ? coords.length: 0;
+  if (coordsLen) {
+    coord = coords[coords.length - 1];
+  }
+
+  //  get part after last " to "
+  const summaryArr = summary.split(" to ");
+  const name = (summaryArr.length) ? summaryArr[summaryArr.length - 1]: summary;
+
+  return { name, coord };
+};
+
 export const getFetchUrl = (from, to) => {
   const { TFL_APP_ID, TFL_APP_KEY } = process.env;
   const BASE_URL = "https://api.tfl.gov.uk/journey/journeyresults/";

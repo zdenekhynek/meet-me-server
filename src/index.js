@@ -4,7 +4,7 @@ import express from "express";
 import cors from "cors";
 
 import { parseCoordString, getMidpointBetweenCoords } from "./utils";
-import { getJourney, findJourneyIntersection } from "./journey";
+import { getJourney, findJourneyIntersection, getDestination } from "./journey";
 
 // Set up the express app
 const app = express();
@@ -41,6 +41,7 @@ app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
         from,
         to,
         midpoint,
+        destination: getDestination(truncatedFromJourney, truncatedToJourney),
         journeys: [truncatedFromJourney, truncatedToJourney],
         fullJourneys: [fromJourney, toJourney],
       },

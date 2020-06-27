@@ -6,6 +6,7 @@ import {
   concatLegsCoords,
   sliceLegsAtIndex,
   findJourneyIntersection,
+  getDestination,
 } from "./journey";
 import * as fixture from "./fixtures/sample-journey.json";
 
@@ -226,6 +227,34 @@ describe("Journey", () => {
       result = findJourneyIntersection(journey1, journey2);
       expect(result[0].legs[0].coords.length).equal(3);
       expect(result[1].legs[0].coords.length).equal(3);
+    });
+  });
+
+  describe("getDestination", () => {
+    it("should find destination from leg summary", () => {
+      let journey1 = { legs: [{ summary: "141 bus to Eagle Wharf Road" }] };
+      let journey2 = {
+        legs: [
+          {
+            summary: "141 bus to Eagle Wharf Road",
+          },
+        ],
+      };
+
+      let result = getDestination(journey1, journey2);
+      expect(result).to.deep.equal("Eagle Wharf Road");
+
+      journey1 = { legs: [] };
+      journey2 = {
+        legs: [
+          {
+            summary: "Barbican",
+          },
+        ],
+      };
+
+      result = getDestination(journey1, journey2);
+      expect(result).to.deep.equal("Barbican");
     });
   });
 });
