@@ -15,14 +15,14 @@ app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
   const { params } = req;
   const { coord1, coord2 } = params;
 
-  const from = parseCoordString(coord1);
-  const to = parseCoordString(coord2);
-
-  //  calculate theoretical midpoint both journeys
-  //  should aim for
-  const midpoint = getMidpointBetweenCoords(from, to);
-
   try {
+    const from = parseCoordString(coord1);
+    const to = parseCoordString(coord2);
+
+    //  calculate theoretical midpoint both journeys
+    //  should aim for
+    const midpoint = getMidpointBetweenCoords(from, to);
+
     console.log("Fetching first journey!");
     let fromJourney = await getJourney(from, midpoint);
 
@@ -48,7 +48,8 @@ app.get("/api/v1/directions/:coord1/:coord2", async (req, res) => {
     });
   } catch (err) {
     console.error(err);
-    res.status(500);
+    const errorMsg = err && err.toString ? err.toString() : "Something broke";
+    res.status(500).send(errorMsg);
   }
 });
 const port = process.env.PORT || 5000;
